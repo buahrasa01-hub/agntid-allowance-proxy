@@ -1,0 +1,5 @@
+node_modules/
+.env
+.near-keys/
+*.log
+.DS_Store

@@ -1,0 +1,31 @@
+{
+  "name": "agntid-allowance-proxy",
+  "version": "1.0.0",
+  "description": "AgntID Agent Security Challenge entry — MCP proxy guard implementing AgntID runtime model with NEAR Allowance Guard enforcement.",
+  "type": "module",
+  "main": "src/agent.mjs",
+  "scripts": {
+    "test": "node --test test/guard.test.mjs",
+    "demo": "node demo/run-demo.mjs",
+    "matrix": "node demo/matrix.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buahrasa01-hub/agntid-allowance-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@near-js/providers": "latest",
+    "@near-js/types": "latest",
+    "@near-js/utils": "latest"
+  },
+  "devDependencies": {
+    "@near-js/accounts": "latest",
+    "@near-js/crypto": "latest",
+    "@near-js/keystores-node": "latest",
+    "@near-js/signers": "latest",
+    "@near-js/transactions": "latest"
+  }
+}
